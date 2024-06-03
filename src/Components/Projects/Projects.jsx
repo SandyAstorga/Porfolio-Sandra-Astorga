@@ -1,5 +1,6 @@
 import gymgo from '../../assets/gymgo.jpg'
 import piFood from '../../assets/pifood.jpg'
+import sandyadev from '../../assets/sandyadev.jpg'
 import frontEndMentor from '../../assets/frontendmentor2.jpg'
 
 export const Projects = () => {
@@ -42,7 +43,7 @@ export const Projects = () => {
             <div className="d-flex justify-content-around images">
               <div className='d-flex flex-column'>
                 <a href="https://sandya-dev.vercel.app" target="_blank">
-                  <img src="" alt="" />
+                  <img src={sandyadev} alt="blog" />
                   <p className='mb-0'>SandyADev</p>
                   <p className='mb-0 stack'>Javascript • React • css</p>
                 </a>
