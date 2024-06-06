@@ -14,8 +14,8 @@ export const AboutMe = () => {
 
         <section className="about-text">
           <p>
-            Mi enfoque principal se centra en el Front-end, donde he concentrado mis esfuerzos en proyectos recientes. <br />
-            Poseo habilidades en el manejo de tecnologías como JavaScript, React.js, HTML, CSS, PostgreSQL y Node.js. <br />
+            Mi enfoque principal se centra en el <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Front-end,</span> donde he concentrado mis esfuerzos en proyectos recientes. <br />
+            Poseo habilidades en el manejo de tecnologías como <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>JavaScript, React.js, HTML, CSS, PostgreSQL y Node.js.</span> <br />
             <br />
             Siempre estoy dispuesta a colaborar en proyectos emocionantes y a trabajar con equipos apasionados por la tecnología.
             Espero tener la oportunidad de contribuir a proyectos exitosos e innovadores en el mundo digital. <br />
