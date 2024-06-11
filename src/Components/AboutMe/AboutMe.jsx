@@ -14,11 +14,14 @@ export const AboutMe = () => {
 
         <section className="about-text">
           <p>
-            Mi enfoque principal se centra en el <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Front-end,</span> donde he concentrado mis esfuerzos en proyectos recientes. <br />
-            Poseo habilidades en el manejo de tecnologías como <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>JavaScript, React.js, HTML, CSS, PostgreSQL y Node.js.</span> <br />
+            Desarrolladora Web Full Stack con formación en Ingeniería en Sistemas Computacionales. <br />
             <br />
-            Siempre estoy dispuesta a colaborar en proyectos emocionantes y a trabajar con equipos apasionados por la tecnología.
-            Espero tener la oportunidad de contribuir a proyectos exitosos e innovadores en el mundo digital. <br />
+            Tengo experiencia en <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Front-end,</span> con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>React, Redux, JavaScript, CSS y HTML,</span> creando interfaces de usuario atractivas y funcionales. <br />
+            En el <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Back-end</span> he trabajado con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Node.js, Express y PostgreSQL,</span> consumiendo APIs y gestionando bases de datos. <br />
+            <br />
+            Estoy comprometida con el aprendizaje continuo y apasionada por aplicar y expandir mis habilidades en proyectos tecnológicos innovadores.
+            <br />
+            <br />
           </p>
         </section>
 
@@ -26,6 +29,11 @@ export const AboutMe = () => {
           <div>
             <h1>Desarrollador Web Jr</h1>
             <p>5 meses</p>
+          </div>
+          
+          <div>
+            <h1>Frontend Developer <br />(Programa de Prácticas Profesionales)</h1>
+            <p>9 meses</p>
           </div>
 
           <div>
