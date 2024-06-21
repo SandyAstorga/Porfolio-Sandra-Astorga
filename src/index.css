@@ -162,13 +162,16 @@ body{
   font-family: var(--space);
 }
 .school img, .personal img, .news img{
-  width: 350px;
+  width: 300px;
   height: 200px;
-  filter: brightness(.6);
+  border-radius: .5rem;
+  filter: drop-shadow(2px 4px 6px black) brightness(.6);
   cursor: pointer;
+  margin-bottom: .5rem;
 }
 .school img:hover, .personal img:hover, .news img:hover {
   translate: 0 .2rem;
+  filter: drop-shadow(2px 4px 6px black) brightness(.6);
 }
 .images p{
   font-family: var(--space);
@@ -300,6 +303,7 @@ input:-webkit-autofill {
   }
   .about-text p{
     padding: 1rem 1.2rem;
+    text-align: center;
   }
   .expertise{
     padding: .5rem;
@@ -310,10 +314,9 @@ input:-webkit-autofill {
     padding: 0;
     gap: 1.5rem;
   }
-  .school img, .personal img, .news img{
-    width: 70%;
-    /* height: 250px; */
-  }
+  /* .school img, .personal img, .news img{
+    width: 50%;
+  } */
 
   .section-contact{
     flex-direction: column;

@@ -18,21 +18,25 @@ export const Projects = () => {
           <section className="school">
             <h1>Académicos</h1>
 
-            <div className="d-flex justify-content-around images">
-              <a href="https://gym-go-five.vercel.app" target="_blank">
-                <img src={gymgo} alt="gymgo" />
-                <p className='mb-0'>
-                  GymGo
-                </p>
-                <p className='mb-0 stack'>Javascript • React • Tailwind</p>
-              </a>
+            <div className="d-flex justify-content-around images" style={{ color: '#A6BBCC' }}>
+              <div className='d-flex flex-column'>
+                <a href="https://gym-go-five.vercel.app" target="_blank">
+                  <img src={gymgo} alt="gymgo" />
+                </a>
+                <div className='text-center'>
+                  <p className='mb-0 fw-bolder'>GymGo (Proyecto Grupal)</p>
+                  <p className='mb-0 stack'>Javascript • React • Tailwind</p>
+                </div>
+              </div>
 
               <div className='d-flex flex-column'>
                 <a href="https://pi-food-deploy-ten.vercel.app" target="_blank">
                   <img src={piFood} alt="pifood" />
-                  <p className='mb-0'>Bon Appetit</p>
-                  <p className='mb-0 stack'>Javascript • React • css</p>
                 </a>
+                <div className='text-center'>
+                  <p className='mb-0 fw-bolder'>Bon Appetit (Proyecto Individual)</p>
+                  <p className='mb-0 stack'>Javascript • React • css</p>
+                </div>
               </div>
             </div>
           </section>
@@ -40,21 +44,25 @@ export const Projects = () => {
           <section className="personal mt-3">
             <h1>Personales</h1>
 
-            <div className="d-flex justify-content-around images">
+            <div className="d-flex justify-content-around images" style={{ color: '#A6BBCC' }}>
               <div className='d-flex flex-column'>
                 <a href="https://sandya-dev.vercel.app" target="_blank">
                   <img src={sandyadev} alt="blog" />
-                  <p className='mb-0'>SandyADev</p>
-                  <p className='mb-0 stack'>Javascript • React • css</p>
                 </a>
+                <div className='text-center'>
+                  <p className='mb-0 fw-bolder'>SandyADev (Blog)</p>
+                  <p className='mb-0 stack'>Javascript • React • css</p>
+                </div>
               </div>
 
               <div className='d-flex flex-column'>
                 <a href="https://www.frontendmentor.io/profile/SandyAstorga" target="_blank">
                   <img src={frontEndMentor} alt="frontendmentor" />
-                  <p className='mb-0'>FrontEnd Mentor (Desafíos)</p>
-                  <p className='mb-0 stack'>Javascript • HTML • css</p>
                 </a>
+                <div className='text-center'>
+                  <p className='mb-0 fw-bolder'>FrontEnd Mentor (Desafíos)</p>
+                  <p className='mb-0 stack'>Javascript • HTML • css</p>
+                </div>
               </div>
             </div>
           </section>
