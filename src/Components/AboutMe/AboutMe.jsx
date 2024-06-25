@@ -16,11 +16,13 @@ export const AboutMe = () => {
           <p>
             Desarrolladora Web Full Stack con formación en Ingeniería en Sistemas Computacionales. <br />
             <br />
-            Tengo experiencia en <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Front-end,</span> con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>HTML, CSS, React, JavaScript y Redux</span> creando interfaces de usuario atractivas y funcionales. <br />
-            En el <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Back-end</span> he trabajado con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Node, Express y PostgreSQL,</span> consumiendo APIs y gestionando bases de datos. <br />
+            Con experiencia en <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Front-end,</span> con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>HTML, CSS, React, JavaScript y Redux</span> creando interfaces de usuario atractivas y funcionales. <br />
+            En el <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Back-end</span> manejo de <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Node, Express y PostgreSQL,</span> consumiendo APIs y gestionando bases de datos. <br />
             <br />
-            Estoy comprometida con el aprendizaje continuo y apasionada por aplicar y expandir mis habilidades en proyectos tecnológicos innovadores.
+            He trabajado en proyectos reales, aplicando habilidades en entornos laborales, colaborando con equipos multidisciplinarios y adaptándome a nuevas tecnologías y metodologías.
             <br />
+            <br />
+            Comprometida con el aprendizaje continuo y apasionada por proyectos tecnológicos innovadores.
             <br />
           </p>
         </section>
