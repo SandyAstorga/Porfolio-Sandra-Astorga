@@ -16,8 +16,8 @@ export const AboutMe = () => {
           <p>
             Desarrolladora Web Full Stack con formación en Ingeniería en Sistemas Computacionales. <br />
             <br />
-            Tengo experiencia en <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Front-end,</span> con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>React, Redux, JavaScript, CSS y HTML,</span> creando interfaces de usuario atractivas y funcionales. <br />
-            En el <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Back-end</span> he trabajado con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Node.js, Express y PostgreSQL,</span> consumiendo APIs y gestionando bases de datos. <br />
+            Tengo experiencia en <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Front-end,</span> con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>HTML, CSS, React, JavaScript y Redux</span> creando interfaces de usuario atractivas y funcionales. <br />
+            En el <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Back-end</span> he trabajado con <span style={{background: '#A6BBCC', color: '#221F1F', padding: '.2rem', fontWeight: '600'}}>Node, Express y PostgreSQL,</span> consumiendo APIs y gestionando bases de datos. <br />
             <br />
             Estoy comprometida con el aprendizaje continuo y apasionada por aplicar y expandir mis habilidades en proyectos tecnológicos innovadores.
             <br />
@@ -36,10 +36,10 @@ export const AboutMe = () => {
             <p>9 meses</p>
           </div>
 
-          <div>
+          {/* <div>
             <h1>Full-stack Developer <br />(Experiencia Académica)</h1>
             <p>1 año</p>
-          </div>
+          </div> */}
         </section>
 
       </div>
